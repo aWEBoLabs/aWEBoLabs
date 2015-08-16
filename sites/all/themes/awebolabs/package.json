@@ -1,0 +1,16 @@
+{
+  "name": "awebolabs",
+  "version": "1.0.0",
+  "author": "Cristian Gonzalez",
+  "homepage": "http://www.awebolabs.com",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass-globbing": "^1.4.0",
+    "grunt-sass-import": "^0.1.0"
+  }
+}

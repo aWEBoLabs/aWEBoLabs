@@ -1,0 +1,30 @@
+.page-node-1{
+  background: #000 url("../images/under-construction-bg.jpg") no-repeat center center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .main-container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -61px;
+  }
+  h1.page-header{
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 0 0 35px;
+    padding: 0;
+  }
+  #block-system-main{
+    color: #B5BED0;
+    text-align: center;
+  }
+  #navbar, 
+  footer{
+    display: none;
+  }
+}

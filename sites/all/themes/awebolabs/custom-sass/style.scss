@@ -1,0 +1,10 @@
+@import 'compass';
+@import "../bootstrap-sass/bootstrap.scss";
+@import "components/_under-construction.scss";
+
+/**
+ * Custom overrides
+ */
+body {
+   @include background(linear-gradient(#eee, #fff));
+}

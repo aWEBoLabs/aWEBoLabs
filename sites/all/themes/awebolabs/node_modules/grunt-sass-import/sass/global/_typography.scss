@@ -1,0 +1,18 @@
+/**
+*
+* Import fonts
+*
+**/
+
+// e.g. @import url('//cloud.typography.com/name-of-font.css');
+
+$font-verdana: Verdana, Helvetica;
+$font-arial: Arial, Helvetica;
+
+$font-primary: $font-verdana;
+$font-secondary: $font-arial;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
