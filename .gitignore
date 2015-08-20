@@ -3,5 +3,7 @@ sites/*/settings*.php
 sites/*/node_modules
 
 # Ignore paths that contain user-generated content.
+.DS_Store
 sites/*/files
+sites/*/tmp
 sites/*/private

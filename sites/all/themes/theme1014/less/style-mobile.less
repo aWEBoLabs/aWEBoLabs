@@ -1,0 +1,381 @@
+@import url('mixins.less');
+
+/* Table of Contents:
+   1. Tablet landscape
+   2. Tablet portrait
+   3. Mobile landscape
+   4. Mobile portrait
+*/
+
+
+
+/*==========================================================================
+1. Tablet landscape
+===========================================================================*/
+
+.switcher {
+	display:none;
+}
+
+@media (max-width: 1250px) {
+	body {
+		min-width: 320px;
+	}
+	
+	.switcher {
+		display: inline-block;
+	}
+
+	h2 {
+		font: 100 50px/50px @titleFontFamily;
+		margin-bottom: 40px;
+		padding-bottom: 30px;
+	}
+
+	h3,
+	#block-tm-follow-user h2 {
+		font: 100 35px/35px @titleFontFamily;
+		margin-bottom: 30px;
+		padding-bottom: 25px;
+	}
+
+	h4 {
+		font: 400 18px/22px @titleFontFamily;
+	}
+	#block-views-block-7-block {
+		background-size: 50%;
+		padding-top: 40px;
+	}
+	#block-views-testimonials-block .flexslider {
+		padding: 0 100px;
+	}
+	.header_wrapper {
+		padding: 90px 0 40px;
+	}
+	.header_bottom_wrapper .region,#main,.section_1_wrapper .region,.section_2_wrapper .region {
+		padding: 140px 0 75px;
+	}
+}
+
+
+
+/*==========================================================================
+2. Tablet portrait
+===========================================================================*/
+
+@media (max-width: 995px) {
+	.page-page-404 .panel-col-first {
+		font-size: 160px;
+	}
+	
+	.stickup{
+		box-shadow: none !important;
+		position: relative !important;
+	}
+	
+	.pseudoStickyBlock{
+		display: none !important;
+		height: 0 !important;
+	}
+	
+	#backtotop {
+		display: none !important;
+	}
+	#superfish-1 > li {
+		font-size: 14px;
+	}
+	#superfish-1 > li > a {
+		padding: 14px;
+	}
+	#block-views-testimonials-block .flexslider {
+		padding: 0;
+	}
+	.header_wrapper {
+		padding: 60px 0 20px;
+	}
+	.header_bottom_wrapper .region,#main,.section_1_wrapper .region,.section_2_wrapper .region {
+		padding: 100px 0 50px;
+	}
+	.view-block-3, .view-block-9 {
+		.view-content {
+			padding-right: 0;
+			padding-left: 400px;
+		}
+		.views-row {
+			padding: 0 0 20px;
+			&:after {
+				display: none;
+			}
+			.counter {
+				position: relative;
+				margin: 0 0 20px;
+				font-size: 80px;
+				text-indent: 0;
+			}
+		}
+	}
+	h2 {
+		font: 100 30px/30px @titleFontFamily;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+	}
+
+	h3,
+	#block-tm-follow-user h2 {
+		font: 100 25px/25px @titleFontFamily;
+		margin-bottom: 20px;
+		padding-bottom: 15px;
+	}
+	#block-views-block-5-block {
+		padding-right: 400px;
+		background-size: 50%;
+		padding-top: 0;
+	}
+	.view-block-6 {
+		padding: 0;
+	}
+	.page-about .section_2_wrapper .region {
+		background: none;
+	}
+	#block-views-block-11-block {
+		padding-right: 400px;
+	}
+	.footer_top_wrapper .region {
+		padding: 100px 0 30px;
+	}
+}
+
+
+
+/*==========================================================================
+3. Mobile landscape
+===========================================================================*/
+
+@media (max-width: 767px) {
+	#superfish-1 {
+		display: none;
+	}
+
+	.select-menu {
+		display: block !important;
+		width: 100%;
+	}
+
+	.comment-wrapper {
+		overflow: visible;
+	}
+
+	.user-picture {
+		margin-bottom: 12px;
+	}
+
+	.panel-2col .panel-col-first,
+	.panel-2col .panel-col-last {
+		float: none;
+		width: 100%;
+
+		.inside {
+			margin: 0;
+		}
+	}
+
+	.page-page-404 .panel-col-first {
+		font-size: 170px;
+		line-height: 170px;
+		text-align: center;
+	}
+
+	.filter-help {
+		float: none;
+		margin-bottom: 15px;
+		padding-top: 0;
+	}
+	
+	.mobile-two-column .views-row {
+		padding-top: 0 !important;
+		float: left !important;
+		width: 46% !important;
+		margin-bottom: 30px !important;
+		margin-right: 4% !important;
+		
+		&.even {
+			margin-right: 0 !important;
+		}
+		
+		&.odd {
+			clear: left;
+		}
+	}
+	
+	.contact-form {
+		.form-type-textfield {
+			float: none;
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+	
+	#comments .indented {
+		margin-left: 0;
+	}
+	
+	.view-slider {
+		.flex-caption {
+			.container-12 {
+				left: 0;
+				position: relative;
+				top: 0;
+				transform: translate(0, 0);
+				-moz-transform: translate(0, 0);
+				-ms-transform: translate(0, 0);
+				-webkit-transform: translate(0, 0);
+				-o-transform: translate(0, 0);
+			}
+			
+			.inner {
+				background: none;
+				padding: 15px 0;
+			}
+		}
+
+		.flex-control-nav {
+			bottom: 5px;
+		}
+	}
+	.dd-search {
+		&#block-search-form {
+			.search-button {
+				display: none;
+			}
+			.block-content {
+				position: relative;
+				width: 100%;
+				bottom: 0px;
+				left: 0px;
+				form {
+					visibility: visible;
+					opacity: 1;
+					padding: 0;
+				}
+			}
+		}
+	}
+	#block-panels-mini-header-top {
+		.alpha {
+			margin-bottom: 0;
+		}
+		.omega {
+			text-align: left;
+		}
+	}
+	.header-section-1 {
+		.col1 {
+			float: none;
+		}
+		.col2 {
+			float: none;
+		}
+	}
+	div.view-header-block {
+		div.views-field-field-header-img {
+			width: 200px;
+		}
+		.views-row h2 {
+			padding-top: 0;
+		}
+	}
+	.view-block-1,.view-block-10 {
+		.views-field-body {
+			-webkit-column-count: 1;
+			-moz-column-count: 1;
+			column-count: 1;
+			-webkit-column-gap: 0px;
+			-moz-column-gap: 0px;
+			column-gap: 0px;
+		}
+	}
+	.box_1 {
+		.align-right {
+			text-align: left;
+		}
+	}
+	.view-block-3 .view-content, .view-block-9 .view-content {
+		padding: 0;
+		background: none;
+	}
+	#block-views-block-7-block {
+		padding: 0;
+		background: none;
+	}
+	#block-views-block-5-block {
+		padding: 0;
+		background: none;
+	}
+	#block-views-block-11-block {
+		padding: 0;
+		background: none;
+	}
+	.contact-list ul li {
+		display: block;
+		margin: 0;
+	}
+}
+
+
+
+/*==========================================================================
+4. Mobile portrait
+===========================================================================*/
+
+@media (max-width: 479px) {
+	#comments {
+		.comment .comment-wrapper {
+			overflow: visible;
+		}
+	}
+
+	.page-tracker #main-wrapper .content {
+		overflow-x: scroll;
+
+		table.sticky-header {
+			display: none !important;
+		}
+	}
+
+	.page-forum #forum {
+		overflow-x: scroll;
+
+		td.forum .icon {
+			float: none;
+			margin: 0 0 5px;
+		}
+	}
+
+	.field-name-field-testi-image {
+		float: none;
+		margin: 0 0 20px;
+		max-width: inherit;
+	}
+	
+	.mobile-two-column .views-row {
+		float: none;
+		width: 100% !important;
+		margin-right: 0 !important;
+	}
+	
+	#isotope-options {
+		#filters {
+			li {
+				display: block;
+				margin: 0 0 10px;
+			}
+		}
+	}
+
+	.node-submitted ul.submitted-list li {
+		border-bottom: 1px solid @borderColor;
+		float: none;
+		margin: 0;
+		padding: 3px 0;
+	}
+}
