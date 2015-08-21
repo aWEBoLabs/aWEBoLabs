@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:42:"sites/all/themes/theme1014/less/style.less";s:8:"compiled";s:52446:"@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+a:4:{s:4:"root";s:42:"sites/all/themes/theme1014/less/style.less";s:8:"compiled";s:53188:"@import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 body {
 	background:#303334;
@@ -1893,4 +1893,38 @@ table .mini-day-on a:hover { text-decoration:underline; }
 }
 .switcher:hover { text-decoration:underline; }
 .region-page-bottom pre { padding:0 !important; }
-";s:5:"files";a:2:{s:89:"/Users/cristian/Sites/awebolabs/awebolabs/html/sites/all/themes/theme1014/less/style.less";i:1440103167;s:90:"/Users/cristian/Sites/awebolabs/awebolabs/html/sites/all/themes/theme1014/less/mixins.less";i:1440103167;}s:7:"updated";i:1440103268;}
+.maintenance-page {
+	background:#000 url("../images/under-construction-bg.jpg") no-repeat center center;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.maintenance-page #page-wrapper {
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	border:none;
+	margin:-65px 0 0 0;
+	min-width:0;
+	padding:0;
+	width:auto;
+}
+.maintenance-page #main { padding:0; }
+.maintenance-page h1#page-title {
+	color:white;
+	border:none;
+	text-align:center;
+	margin:0 0 35px;
+	padding:0;
+}
+.maintenance-page #content {
+	color:#B5BED0;
+	text-align:center;
+}
+.maintenance-page #highlighted p { margin:0; }
+.maintenance-page #highlighted *+* { margin-top:10px; }
+.maintenance-page #logo, .maintenance-page #navbar, .maintenance-page footer { display:none; }
+";s:5:"files";a:2:{s:89:"/Users/cristian/Sites/awebolabs/awebolabs/html/sites/all/themes/theme1014/less/style.less";i:1440118490;s:90:"/Users/cristian/Sites/awebolabs/awebolabs/html/sites/all/themes/theme1014/less/mixins.less";i:1440103167;}s:7:"updated";i:1440118495;}

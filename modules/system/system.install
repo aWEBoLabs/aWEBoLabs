@@ -28,16 +28,18 @@ function system_requirements($phase) {
     $profile = drupal_get_profile();
     if ($profile != 'standard') {
       $info = system_get_info('module', $profile);
-      $requirements['install_profile'] = array(
-        'title' => $t('Install profile'),
-        'value' => $t('%profile_name (%profile-%version)', array(
-          '%profile_name' => $info['name'],
-          '%profile' => $profile,
-          '%version' => $info['version']
-        )),
-        'severity' => REQUIREMENT_INFO,
-        'weight' => -9
-      );
+      if ( isset($info['name']) && isset($info['version']) ) {
+        $requirements['install_profile'] = array(
+          'title' => $t('Install profile'),
+          'value' => $t('%profile_name (%profile-%version)', array(
+            '%profile_name' => $info['name'],
+            '%profile' => $profile,
+            '%version' => $info['version']
+          )),
+          'severity' => REQUIREMENT_INFO,
+          'weight' => -9
+        );
+      }
     }
   }
 

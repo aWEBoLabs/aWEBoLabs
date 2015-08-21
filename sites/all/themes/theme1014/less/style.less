@@ -3173,3 +3173,53 @@ table .mini-day-on a {
 .region-page-bottom pre {
 	padding: 0 !important;
 }
+
+
+/* Maintenance
+===========================================================================*/
+.maintenance-page{
+  background: #000 url("../images/under-construction-bg.jpg") no-repeat center center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  #page-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    border: none;
+    margin: -65px 0 0 0;
+    min-width: 0;
+    padding: 0;
+    width: auto;
+  }
+  #main{
+    padding: 0;
+  }
+  h1#page-title{
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 0 0 35px;
+    padding: 0;
+  }
+  #content{
+    color: #B5BED0;
+    text-align: center;
+  }
+  #highlighted{
+    p{
+      margin: 0;
+    }
+    *+*{
+      margin-top: 10px;
+    }
+  }
+  #logo, 
+  #navbar, 
+  footer{
+    display: none;
+  }
+}

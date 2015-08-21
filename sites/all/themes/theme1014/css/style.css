@@ -1893,3 +1893,37 @@ table .mini-day-on a:hover { text-decoration:underline; }
 }
 .switcher:hover { text-decoration:underline; }
 .region-page-bottom pre { padding:0 !important; }
+.maintenance-page {
+	background:#000 url("../images/under-construction-bg.jpg") no-repeat center center;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+.maintenance-page #page-wrapper {
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	border:none;
+	margin:-65px 0 0 0;
+	min-width:0;
+	padding:0;
+	width:auto;
+}
+.maintenance-page #main { padding:0; }
+.maintenance-page h1#page-title {
+	color:white;
+	border:none;
+	text-align:center;
+	margin:0 0 35px;
+	padding:0;
+}
+.maintenance-page #content {
+	color:#B5BED0;
+	text-align:center;
+}
+.maintenance-page #highlighted p { margin:0; }
+.maintenance-page #highlighted *+* { margin-top:10px; }
+.maintenance-page #logo, .maintenance-page #navbar, .maintenance-page footer { display:none; }
