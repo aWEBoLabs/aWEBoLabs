@@ -1,6 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 sites/*/node_modules
+cristianGonzalez-circle.png
 
 # Ignore paths that contain user-generated content.
 .DS_Store
