@@ -198,7 +198,9 @@ function drupal_install_profile_distribution_name() {
   // installation state (it might not be saved anywhere yet).
   if (drupal_installation_attempted()) {
     global $install_state;
-    return $install_state['profile_info']['distribution_name'];
+    if ( isset($install_state['profile_info']['distribution_name']) ) {
+      return $install_state['profile_info']['distribution_name'];
+    }
   }
   // At all other times, we load the profile via standard methods.
   else {
