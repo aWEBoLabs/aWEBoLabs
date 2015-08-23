@@ -2,6 +2,8 @@
 sites/*/settings*.php
 sites/*/node_modules
 cristianGonzalez-circle.png
+style-mobile.less.cache
+style.less.cache
 
 # Ignore paths that contain user-generated content.
 .DS_Store
