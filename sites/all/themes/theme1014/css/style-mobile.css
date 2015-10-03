@@ -20,6 +20,11 @@
 	#block-views-testimonials-block .flexslider { padding:0 100px; }
 	.header_wrapper { padding:90px 0 40px; }
 	.header_bottom_wrapper .region, #main, .section_1_wrapper .region, .section_2_wrapper .region { padding:140px 0 75px; }
+	.img-logo {
+		margin-top:2px;
+		width:396px;
+		height:56px;
+	}
 }
 @media (max-width: 995px) {
 	.page-page-404 .panel-col-first { font-size:160px; }
@@ -68,6 +73,11 @@
 	.page-about .section_2_wrapper .region { background:none; }
 	#block-views-block-11-block { padding-right:400px; }
 	.footer_top_wrapper .region { padding:100px 0 30px; }
+	.img-logo {
+		margin-top:7px;
+		width:326px;
+		height:46px;
+	}
 }
 @media (max-width: 767px) {
 	#superfish-1 { display:none; }
@@ -169,6 +179,18 @@
 		display:block;
 		margin:0;
 	}
+	#logo {
+		display:table;
+		width:100%;
+		text-align:center;
+	}
+	.img-logo {
+		display:inline-block;
+		margin-top:0;
+		width:100%;
+		max-width:600px;
+		height:auto;
+	}
 }
 @media (max-width: 479px) {
 	#comments .comment .comment-wrapper { overflow:visible; }
@@ -194,7 +216,7 @@
 		margin:0 0 10px;
 	}
 	.node-submitted ul.submitted-list li {
-		border-bottom:1px solid #47c7de;
+		border-bottom:1px solid #04B7E4;
 		float:none;
 		margin:0;
 		padding:3px 0;
