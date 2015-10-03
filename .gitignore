@@ -7,6 +7,8 @@ style.less.cache
 
 # Ignore paths that contain user-generated content.
 .DS_Store
+sites/all/themes/awebolabs/.DS_Store
+sites/*/.DS_Store
 sites/*/files
 sites/*/tmp
 sites/*/private
